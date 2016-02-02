@@ -176,6 +176,34 @@
 			}).stop().fadeIn(100);
 		}
 	});
+	if ( $('.contacts-b .core ul').length > 0 ) {
+		$('.contacts-b .core ul li div').each(function() {
+			$(this).css({
+				'margin-top': -$(this).outerHeight()/2-1+'px'
+			});
+		});
+		$('.contacts-b .core ul').css({
+			'opacity': '1'
+		});
+	}
+	$('.modal').append('<span class="close"></span>');
+	$('[data-open]').bind('click', function(e) {
+		e.preventDefault();
+		$('header .lk').stop().slideUp(250);
+		var t = $('.modal[data-target="'+$(this).attr('data-open')+'"]');
+		$('.fade').stop(true,true).fadeIn(500);
+		var h = $(window).scrollTop()+($(window).height()-t.outerHeight())/2;
+		if ( h < 0 ) {
+			h = 0;
+		}
+		t.css({
+			'top': h+'px'
+		}).stop(true,true).fadeIn(500);
+	});
+	$('.fade, .modal .close').bind('click', function(e) {
+		e.preventDefault();
+		$('.fade, .modal').stop(true,true).fadeOut(500);
+	});
 });
 $(window).load(function() {
 	if ( $('.menu').length > 0 ) {

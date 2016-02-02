@@ -28,7 +28,7 @@
 			</div>
 			<nav>
 				<ul>
-					<li class="active">
+					<li>
 						<a href="#">Каталог</a>
 						<ul>
 							<li>
@@ -225,7 +225,7 @@
 					<li><a href="#">Доставка</a></li>
 					<li><a href="#">Оплата</a></li>
 					<li><a href="#">Оптовикам</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li class="active"><a href="#">Контакты</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -234,189 +234,81 @@
 		</div>
 		<ul class="breadcrumbs">
 			<li><a href="#">Главная</a></li>
-			<li><a href="#">Каталог</a></li>
-			<li>Кофе</li>
+			<li>Контакты</li>
 		</ul>
-		<div class="catalog-c">
-			<div>
-				<div class="lc">
-					<ul class="selected">
-						<li><a href="#">Чай</a></li>
-						<li><a href="#">Какао и напитки</a></li>
-						<li><a href="#">Кондитерские изделия</a></li>
-						<li><a href="#">Посуда и аксессуары для чаепития</a></li>
-					</ul>
-					<div class="filter">
-						<h2><span><img src="./img/filter_type1_icon.png" width="39" height="39" alt=""></span>Кофе (323)</h2>
-						<button class="reset">Сбросить все фильтры</button>
-						<div class="list">
-							<div class="group">
-								<h5>Виды кофе</h5>
-								<ul>
-									<li>
-										<label><input type="checkbox">натуральный</label>
-										<ul>
-											<li><label><input type="checkbox">зерно цельное</label></li>
-											<li><label><input type="checkbox">зерно молотое</label></li>
-										</ul>
-									</li>
-									<li>
-										<label><input type="checkbox">растворимый</label>
-										<ul>
-											<li><label><input type="checkbox">сублимированный</label></li>
-											<li><label><input type="checkbox">гранулированный</label></li>
-											<li><label><input type="checkbox">порошкообразный</label></li>
-											<li><label><input type="checkbox">молотый в растворимом</label></li>
-										</ul>
-									</li>
-									<li><label><input type="checkbox">быстрорастворимый 3в1</label></li>
-									<li><label><input type="checkbox">кофе в капсулах</label></li>
-								</ul>
-							</div>
-							<div class="group">
-								<h5>Фасовка кофе</h5>
-								<ul>
-									<li><label><input type="checkbox">кофе на вес</label></li>
-									<li><label><input type="checkbox">кофе фасованный</label></li>
-								</ul>
-							</div>
-							<div class="group">
-								<h5>Страна производства кофе</h5>
-								<ul>
-									<li><label><input type="checkbox">Германия</label></li>
-									<li><label><input type="checkbox">Швейцария</label></li>
-									<li><label><input type="checkbox">Россия</label></li>
-									<li><label><input type="checkbox">Япония</label></li>
-									<li><label><input type="checkbox">Италия</label></li>
-								</ul>
-							</div>
-							<div class="group">
-								<h5>Кофейная упаковка</h5>
-								<ul>
-									<li><label><input type="checkbox">ж/б банка</label></li>
-									<li><label><input type="checkbox">стекло/банка</label></li>
-									<li><label><input type="checkbox">мягкая упаковка</label></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="rc">
-					<section class="product-s">
-						<h1>Кофе Egoiste Platinum 100г. в кристаллах</h1>
-						<div>
-							<div class="picture">
-								<img src="./pic/p1.jpg" width="148" height="225" alt="">
-							</div>
-							<div class="info">
-								<ul>
-									<li><span>Вид:</span> растворимый, сублимированный</li>
-									<li><span>Фасовка:</span> кофе фасованный</li>
-									<li><span>Страна производства:</span> Швецария</li>
-									<li><span>Кофейная упаковка:</span> стекло/банка</li>
-								</ul>
-								<h4><strong>405,40<i>С</i></strong></h4>
-								<div class="quantity-e">
-									<p>Укажите кол-во</p>
-									<div>
-										<span class="minus"></span>
-										<input type="text" value="1">
-										<span class="plus"></span>
-									</div>
-								</div>
-								<h6><span data-open="buy">Купить в один клик</span></h6>
-								<button class="standart">В корзину</button>
-								<!--<button class="standart disabled">В корзине</button>-->
-							</div>
-							<div class="more">
-								<div>
-									<div>
-										<span>
-											<img src="./img/product_more_icon1.png" width="37" height="22" alt="">
-										</span>
-										<h5>Как забрать товар:</h5>
-										<ul>
-											<li>Самовывоз</li>
-											<li>Доставка</li>
-										</ul>
-									</div>
-									<div>
-										<span>
-											<img src="./img/product_more_icon2.png" width="27" height="24" alt="">
-										</span>
-										<h5>Как оплатить:</h5>
-										<ul>
-											<li>Наличными/ картой в магазине</li>
-											<li>Наличными водителю</li>
-											<li>Безналичными. Оплата на сайте</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<article class="product-d">
-						<p>Кофе Эгоист Платинум - 100% натуральный растворимый сублимированный кофе. Кофе Egoiste Platinum хорошо взбодрит вас утром, у него мужской характер. Уникальная смесь элитных сортов арабики Кении и Колумбии. Кенийская арабика создает ярко выраженный характер, индивидуальность вкуса, а тонкость аромата и цвет, передающий теплоту солнечных лучей, привносит арабика, собранная в Колумбии. Рекомендуется заваривать 2 грамма кофе на 100 грамм воды. Кофе Эгоист Platinum - швейцарский кофе, он произведен на заводе HACO Ltd.</p>
-					</article>
-					<section class="same-b">
-						<h2>С этим товаром покупают</h2>
-						<ul>
-							<li class="item-e">
-								<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-								<div class="picture">
-									<img src="./pic/item.jpg" width="79" height="134" alt="">
-								</div>
-								<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-								<div class="quantity-e">
-									<p>Укажите кол-во</p>
-									<div>
-										<span class="minus"></span>
-										<input type="text" value="1">
-										<span class="plus"></span>
-									</div>
-								</div>
-								<h5>Цена: <span>405,40<i>С</i></span></h5>
-								<button class="standart">В корзину</button>
-							</li>
-							<li class="item-e">
-								<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-								<div class="picture">
-									<img src="./pic/item.jpg" width="79" height="134" alt="">
-								</div>
-								<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-								<div class="quantity-e">
-									<p>Укажите кол-во</p>
-									<div>
-										<span class="minus"></span>
-										<input type="text" value="1">
-										<span class="plus"></span>
-									</div>
-								</div>
-								<h5>Цена: <span>405,40<i>С</i></span></h5>
-								<button class="standart">В корзину</button>
-							</li>
-							<li class="item-e">
-								<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-								<div class="picture">
-									<img src="./pic/item.jpg" width="79" height="134" alt="">
-								</div>
-								<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-								<div class="quantity-e">
-									<p>Укажите кол-во</p>
-									<div>
-										<span class="minus"></span>
-										<input type="text" value="1">
-										<span class="plus"></span>
-									</div>
-								</div>
-								<h5>Цена: <span>405,40<i>С</i></span></h5>
-								<button class="standart">В корзину</button>
-							</li>
-						</ul>
-					</section>
+		<section class="contacts-b">
+			<h1>Контакты</h1>
+			<div class="intro">
+				<div>
+					<p>Для улучшения качества обслуживания наших покупателей, мы готовы ответить на  вопросы и выслушать  ваши пожелания и предложения  по работе нашего магазина.</p>
+					<p>Контактная информация представлена ниже.</p>
 				</div>
 			</div>
-		</div>
+			<div class="core">
+				<ul>
+					<li>
+						<span>
+							<img src="./img/mail_icon.png" width="26" height="16" alt="">
+						</span>
+						<div>
+							<p><a href="mailto:info@ichaikofe.ru">info@ichaikofe.ru</a></p>
+						</div>
+					</li>
+					<li>
+						<span>
+							<img src="./img/pin_icon.png" width="20" height="27" alt="">
+						</span>
+						<div>
+							<p><strong>656039</strong></p>
+							<p>г. Барнаул  ул. Советской Армии 171б, офис 206</p>
+						</div>
+					</li>
+					<li>
+						<span>
+							<img src="./img/phone_icon.png" width="24" height="24" alt="">
+						</span>
+						<div>
+							<p><a href="tel:+73852557952">8 (3852) 55-79-52</a></p>
+						</div>
+					</li>
+				</ul>
+				<div>
+					<h5>Юридические реквизиты:</h5>
+					<p>ООО «Чайная Компания»</p>
+					<p>ИНН	2222838252</p>
+					<p>КПП	222201001</p>
+					<p>Расчетный счет	40702810802000009135</p>
+					<p>Кор.счет	30101810200000000604</p>
+					<p>Банк	Отделение № 8644 Сбербанка России г. Барнаул</p>
+					<p>БИК	040173604</p>
+				</div>
+			</div>
+			<div class="form">
+				<h3>Обратная связь</h3>
+				<p><input type="text" placeholder="Имя"></p>
+				<p><input type="text" placeholder="Телефон"></p>
+				<p><input type="text" placeholder="E-mail"></p>
+				<p><textarea cols="60" rows="3" placeholder="Комментарий"></textarea></p>
+				<button class="standart">Отправить</button>
+			</div>
+		</section>
+		<div id="map"></div>
+		<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script>
+			ymaps.ready(function() {
+				var map = new ymaps.Map('map', {
+					center: [53.355438207003644,83.7040871957701],
+					zoom: 15
+				}),
+				mark = new ymaps.Placemark([53.355438207003644,83.7040871957701], {}, {
+					iconLayout: 'default#image',
+					iconImageHref: './img/map_hint.png',
+					iconImageSize: [42,42],
+					iconImageOffset: [0,-42]
+				});
+				map.geoObjects.add(mark);
+			});
+		</script>
 		<div class="clear"></div>
 	</div>
 	<footer>
@@ -454,14 +346,6 @@
 	<div class="bg">
 		<div class="plain"></div>
 		<div class="pattern"></div>
-	</div>
-	<div class="fade"></div>
-	<div class="modal" data-target="buy">
-		<div class="form">
-			<p><input type="text" placeholder="Имя"></p>
-			<p><input type="text" placeholder="Телефон"></p>
-			<button class="standart">Отправить</button>
-		</div>
 	</div>
 	<script src="./js/easing.js"></script>
 	<script src="./js/jcarousel.js"></script>
