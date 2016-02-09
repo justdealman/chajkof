@@ -22,6 +22,13 @@
 			</div>
 			<img src="./img/logo.png" width="160" height="160" class="logo" alt="">
 			<h5 class="private"><a href="#">Личный кабинет</a></h5>
+			<ul class="private-drop">
+				<li><a href="#">Вход</a></li>
+				<li><a href="#">Регистрация</a></li>
+				<li><a href="#">Личный кабинет</a></li>
+				<li><a href="#">Корзина</a></li>
+				<li><a href="#">Мои заказы</a></li>
+			</ul>
 			<div class="basket">
 				<p>Товаров в корзине</p>
 				<h5><a href="#">3 на 3500 руб.</a></h5>
@@ -106,10 +113,20 @@
 		</div>
 		<section class="intro-b">
 			<div class="banner">
-				<a href="#">
-					<h5>Чайный набор Гринфилд “Ассорти” <span>Подарочная упаковка, 120 п.</span></h5>
-					<img src="./pic/b.jpg" width="715" height="336" alt="">
-				</a>
+				<div class="container">
+					<div>
+						<a href="#">
+							<h5>Чайный набор Гринфилд “Ассорти” <span>Подарочная упаковка, 120 п.</span></h5>
+							<img src="./pic/b.jpg" width="715" height="336" alt="">
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<h5>Чайный набор Гринфилд “Ассорти” 2 <span>Подарочная упаковка, 120 п.</span></h5>
+							<img src="./pic/b.jpg" width="715" height="336" alt="">
+						</a>
+					</div>
+				</div>
 			</div>
 			<div class="item-e">
 				<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
@@ -320,149 +337,210 @@
 		<section class="index">
 			<div>
 				<ul class="tab-c">
-					<li class="active"><a href="#"><i class="popular-icon"></i>Популярные</a></li>
-					<li><a href="#"><i class="new-icon"></i>Новинки</a></li>
-					<li><a href="#"><i class="stock-icon"></i>Акции</a></li>
+					<li><a href="1"><i class="popular-icon"></i>Популярные</a></li>
+					<li><a href="2"><i class="new-icon"></i>Новинки</a></li>
+					<li><a href="3"><i class="stock-icon"></i>Акции</a></li>
 				</ul>
-				<ul class="cat-b">
-					<li class="item-e">
-						<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-						<div class="picture">
-							<img src="./pic/item.jpg" width="79" height="134" alt="">
-						</div>
-						<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-						<div class="quantity-e">
-							<p>Укажите кол-во</p>
-							<div>
-								<span class="minus"></span>
-								<input type="text" value="1">
-								<span class="plus"></span>
+				<div class="tab" data-tab="1">
+					<ul class="cat-b">
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
 							</div>
-						</div>
-						<h5>Цена: <span>405,40<i>С</i></span></h5>
-						<button class="standart">В корзину</button>
-					</li>
-					<li class="item-e">
-						<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-						<div class="picture">
-							<img src="./pic/item.jpg" width="79" height="134" alt="">
-						</div>
-						<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-						<div class="quantity-e">
-							<p>Укажите кол-во</p>
-							<div>
-								<span class="minus"></span>
-								<input type="text" value="1">
-								<span class="plus"></span>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
 							</div>
-						</div>
-						<h5>Цена: <span>405,40<i>С</i></span></h5>
-						<button class="standart">В корзину</button>
-					</li>
-					<li class="item-e">
-						<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-						<div class="picture">
-							<img src="./pic/item.jpg" width="79" height="134" alt="">
-						</div>
-						<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-						<div class="quantity-e">
-							<p>Укажите кол-во</p>
-							<div>
-								<span class="minus"></span>
-								<input type="text" value="1">
-								<span class="plus"></span>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
 							</div>
-						</div>
-						<h5>Цена: <span>405,40<i>С</i></span></h5>
-						<button class="standart">В корзину</button>
-					</li>
-					<li class="item-e">
-						<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-						<div class="picture">
-							<img src="./pic/item.jpg" width="79" height="134" alt="">
-						</div>
-						<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-						<div class="quantity-e">
-							<p>Укажите кол-во</p>
-							<div>
-								<span class="minus"></span>
-								<input type="text" value="1">
-								<span class="plus"></span>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
 							</div>
-						</div>
-						<h5>Цена: <span>405,40<i>С</i></span></h5>
-						<button class="standart">В корзину</button>
-					</li>
-					<li class="item-e">
-						<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-						<div class="picture">
-							<img src="./pic/item.jpg" width="79" height="134" alt="">
-						</div>
-						<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-						<div class="quantity-e">
-							<p>Укажите кол-во</p>
-							<div>
-								<span class="minus"></span>
-								<input type="text" value="1">
-								<span class="plus"></span>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
 							</div>
-						</div>
-						<h5>Цена: <span>405,40<i>С</i></span></h5>
-						<button class="standart">В корзину</button>
-					</li>
-					<li class="item-e">
-						<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-						<div class="picture">
-							<img src="./pic/item.jpg" width="79" height="134" alt="">
-						</div>
-						<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-						<div class="quantity-e">
-							<p>Укажите кол-во</p>
-							<div>
-								<span class="minus"></span>
-								<input type="text" value="1">
-								<span class="plus"></span>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
 							</div>
-						</div>
-						<h5>Цена: <span>405,40<i>С</i></span></h5>
-						<button class="standart">В корзину</button>
-					</li>
-					<li class="item-e">
-						<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-						<div class="picture">
-							<img src="./pic/item.jpg" width="79" height="134" alt="">
-						</div>
-						<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-						<div class="quantity-e">
-							<p>Укажите кол-во</p>
-							<div>
-								<span class="minus"></span>
-								<input type="text" value="1">
-								<span class="plus"></span>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
 							</div>
-						</div>
-						<h5>Цена: <span>405,40<i>С</i></span></h5>
-						<button class="standart">В корзину</button>
-					</li>
-					<li class="item-e">
-						<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
-						<div class="picture">
-							<img src="./pic/item.jpg" width="79" height="134" alt="">
-						</div>
-						<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
-						<div class="quantity-e">
-							<p>Укажите кол-во</p>
-							<div>
-								<span class="minus"></span>
-								<input type="text" value="1">
-								<span class="plus"></span>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
 							</div>
-						</div>
-						<h5>Цена: <span>405,40<i>С</i></span></h5>
-						<button class="standart">В корзину</button>
-					</li>
-				</ul>
-				<h6 class="more"><a href="#">Смотреть все</a></h6>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
+							</div>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
+							</div>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
+							</div>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
+							</div>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
+							</div>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
+							</div>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
+							</div>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
+							</div>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+					</ul>
+					<h6 class="more"><a href="#">Смотреть все</a></h6>
+				</div>
+				<div class="tab" data-tab="2">
+					<ul class="cat-b">
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
+							</div>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
+							</div>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
+							</div>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
+							</div>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+					</ul>
+				</div>
+				<div class="tab" data-tab="3">
+					<ul class="cat-b">
+						<li class="item-e">
+							<h3><a href="#">Кофе Egoiste Platinum 100г. в кристаллах</a></h3>
+							<div class="picture">
+								<img src="./pic/item.jpg" width="79" height="134" alt="">
+							</div>
+							<img src="./img/new_icon.png" width="70" height="44" class="icon" alt="">
+							<div class="quantity-e">
+								<p>Укажите кол-во</p>
+								<div>
+									<span class="minus"></span>
+									<input type="text" value="1">
+									<span class="plus"></span>
+								</div>
+							</div>
+							<h5>Цена: <span>405,40<i>С</i></span></h5>
+							<button class="standart">В корзину</button>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</section>
 		<section class="benefits-b">
@@ -551,6 +629,7 @@
 	<script src="./js/mobile.js"></script>
 	<script src="./js/mousewheel.js"></script>
 	<script src="./js/scrollpane.js"></script>
+	<script src="./js/slides.js"></script>
 	<script src="./js/uniform.js"></script>
 	<script src="./js/dynamic.js"></script>
 </body>
