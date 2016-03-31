@@ -257,6 +257,13 @@
 			});
 		}
 	);
+	$(window).bind('scroll', function() {
+		if ( $(document).scrollTop() > $('header').outerHeight(true)+$('.search-b').outerHeight(true) ) {
+			$('.menu-fixed').show();
+		} else {
+			$('.menu-fixed').hide();
+		}
+	});
 });
 $(window).load(function() {
 	if ( $('.menu').length > 0 ) {

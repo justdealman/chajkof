@@ -3448,3 +3448,75 @@ div.radio input {
 	width:auto;
 	padding:0;
 }
+.menu-fixed {
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:200;
+	width:100%;
+	height:74px;
+	background:rgb(255,255,255);
+	background:rgba(255,255,255,0.9);
+}
+.menu-fixed img {
+	position:absolute;
+	left:50%;
+	top:20px;
+	margin-left:-470px;
+}
+.menu-fixed ul {
+	position:absolute;
+	left:50%;
+	margin:0 0 0 -421px;
+}
+.menu-fixed ul li {
+	float:left;
+	font-size:13px;
+	line-height:16px;
+	font-family:'Roboto Slab', sans-serif;
+	font-weight:bold;
+}
+.menu-fixed ul li a {
+	display:block;
+	color:#000000;
+	padding:29px 11px 29px;
+}
+.menu-fixed ul li a:hover {
+	text-decoration:underline;
+}
+.menu-fixed div {
+	position:absolute;
+	left:50%;
+	top:17px;
+	color:#41352c;
+	white-space:nowrap;
+	margin-left:348px;
+}
+.menu-fixed div:before {
+	content:url('../img/header_basket_icon.png');
+	position:absolute;
+	left:-50px;
+	top:3px;
+}
+.menu-fixed div p {
+	font-size:12px;
+	line-height:15px;
+	font-weight:500;
+	margin:0 0 2px;
+}
+.menu-fixed div h5 {
+	font-size:18px;
+	line-height:21px;
+	font-family:'Roboto Slab', sans-serif;
+	padding:0;
+	margin:0 0 2px;
+}
+.menu-fixed div h5 a {
+	color:#41352c;
+	text-decoration:underline;
+}
+.menu-fixed div h5 a:hover {
+	color:#41352c;
+	text-decoration:none;
+}
